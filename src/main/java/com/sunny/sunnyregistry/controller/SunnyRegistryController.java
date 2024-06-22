@@ -2,9 +2,9 @@
 package com.sunny.sunnyregistry.controller;
 
 import com.sunny.sunnyregistry.cluster.Cluster;
-import com.sunny.sunnyregistry.cluster.Server;
-import com.sunny.sunnyregistry.cluster.Snapshot;
-import com.sunny.sunnyregistry.model.InstanceMeta;
+import com.sunny.sunnyregistry.model.cluster.Server;
+import com.sunny.sunnyregistry.model.cluster.Snapshot;
+import com.sunny.sunnyregistry.model.service.InstanceMeta;
 import com.sunny.sunnyregistry.service.RegistryService;
 import com.sunny.sunnyregistry.service.SunnyRegistryService;
 import lombok.extern.slf4j.Slf4j;

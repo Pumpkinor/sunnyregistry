@@ -1,7 +1,7 @@
 package com.sunny.sunnyregistry.service;
 
-import com.sunny.sunnyregistry.cluster.Snapshot;
-import com.sunny.sunnyregistry.model.InstanceMeta;
+import com.sunny.sunnyregistry.model.cluster.Snapshot;
+import com.sunny.sunnyregistry.model.service.InstanceMeta;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;

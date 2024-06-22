@@ -1,6 +1,7 @@
 package com.sunny.sunnyregistry.cluster;
 
 import com.sunny.sunnyregistry.conf.SunnyRegistryConfigProperties;
+import com.sunny.sunnyregistry.model.cluster.Server;
 import com.sunny.sunnyregistry.service.SunnyRegistryService;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -32,9 +33,8 @@ public class Cluster {
     private List<Server> servers;
 
     public void init() {
-        try {
-            host = new InetUtils(new InetUtilsProperties())
-                    .findFirstNonLoopbackHostInfo().getIpAddress();
+        try (InetUtils inetUtils = new InetUtils(new InetUtilsProperties())){
+            host = inetUtils.findFirstNonLoopbackHostInfo().getIpAddress();
             log.info(" ===> findFirstNonLoopbackHostInfo = " + host);
         } catch (Exception e) {
             host = "127.0.0.1";
@@ -66,7 +66,6 @@ public class Cluster {
                 servers.add(server);
             }
         } 
-        // todo ...
         this.servers = servers;
     }
 

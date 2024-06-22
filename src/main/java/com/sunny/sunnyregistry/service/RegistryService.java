@@ -1,6 +1,6 @@
 package com.sunny.sunnyregistry.service;
 
-import com.sunny.sunnyregistry.model.InstanceMeta;
+import com.sunny.sunnyregistry.model.service.InstanceMeta;
 
 import java.util.List;
 import java.util.Map;

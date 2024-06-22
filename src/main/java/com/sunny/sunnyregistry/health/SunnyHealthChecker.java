@@ -1,6 +1,6 @@
 package com.sunny.sunnyregistry.health;
 
-import com.sunny.sunnyregistry.model.InstanceMeta;
+import com.sunny.sunnyregistry.model.service.InstanceMeta;
 import com.sunny.sunnyregistry.service.RegistryService;
 import com.sunny.sunnyregistry.service.SunnyRegistryService;
 import lombok.extern.slf4j.Slf4j;

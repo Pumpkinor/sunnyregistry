@@ -1,20 +1,13 @@
-package com.sunny.sunnyregistry.cluster;
+package com.sunny.sunnyregistry.model.cluster;
 
 
-import com.sunny.sunnyregistry.model.InstanceMeta;
+import com.sunny.sunnyregistry.model.service.InstanceMeta;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.util.LinkedMultiValueMap;
 
 import java.util.Map;
-
-/**
- * Description for this class.
- *
- * @Author : kimmking(kimmking@apache.org)
- * @create 2024/4/20 下午7:35
- */
 
 @AllArgsConstructor
 @NoArgsConstructor

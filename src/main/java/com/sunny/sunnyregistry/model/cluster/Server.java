@@ -1,4 +1,4 @@
-package com.sunny.sunnyregistry.cluster;
+package com.sunny.sunnyregistry.model.cluster;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

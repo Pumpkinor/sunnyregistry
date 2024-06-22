@@ -7,14 +7,10 @@ import java.util.List;
 
 /**
  * registry config properties.
- *
- * @Author : kimmking(kimmking@apache.org)
- * @create 2024/4/16 20:24
  */
 
 @Data
-@ConfigurationProperties(prefix = "sunnyregistry")
+@ConfigurationProperties(prefix = "sunny-registry")
 public class SunnyRegistryConfigProperties {
     private List<String> serverList;
-
 }

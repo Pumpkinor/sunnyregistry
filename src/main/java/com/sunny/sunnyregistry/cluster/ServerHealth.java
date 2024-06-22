@@ -1,6 +1,8 @@
 package com.sunny.sunnyregistry.cluster;
 
 import com.sunny.sunnyregistry.http.HttpInvoker;
+import com.sunny.sunnyregistry.model.cluster.Server;
+import com.sunny.sunnyregistry.model.cluster.Snapshot;
 import com.sunny.sunnyregistry.service.SunnyRegistryService;
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.sunny.sunnyregistry.model;
+package com.sunny.sunnyregistry.model.service;
 
 import com.alibaba.fastjson.JSON;
 import lombok.AllArgsConstructor;

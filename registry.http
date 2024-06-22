@@ -1,7 +1,7 @@
 ### 获取所有服务实例84
 GET http://localhost:8484/findAll?service=com.sunny.sunnyrpc.UserService
 ### 获取所有服务实例85
-GET http://localhost:8486/findAll?service=com.sunny.sunnyrpc.UserService
+GET http://localhost:8485/findAll?service=com.sunny.sunnyrpc.UserService
 
 ### 注册一个实例
 POST http://localhost:8484/reg?service=com.sunny.sunnyrpc.UserService
@@ -10,7 +10,7 @@ Content-Type: application/json
 {
   "context": "sunnyrpc",
   "host": "127.0.0.1",
-  "port": 8081,
+  "port": 8082,
   "scheme": "http",
   "status": false,
   "parameters": {
